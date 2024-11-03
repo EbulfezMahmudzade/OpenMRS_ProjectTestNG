@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Parallel Test Suite" parallel="tests" thread-count="1">
+    <test name="Parallel Test Edge">
+        <parameter name="BrowserType" value="edge"></parameter>
+
+        <classes>
+<!--            <class name="StepsDefinitions.Login"></class>-->
+<!--            <class name="StepsDefinitions.CheckingLoginErrors01"></class>-->
+<!--            <class name="StepsDefinitions.CheckingLoginErrors02"></class>-->
+<!--            <class name="StepsDefinitions.DeletePatient"></class>-->
+<!--            <class name="StepsDefinitions.FindPatientRecord"></class>-->
+<!--            <class name="StepsDefinitions.FindPatientRecordNegativ"></class>-->
+<!--            <class name="StepsDefinitions.ListPatient"></class>-->
+            <class name="StepsDefinitions.MergingPatientRecords"></class>
+<!--            <class name="StepsDefinitions.MyAccount"></class>-->
+<!--            <class name="StepsDefinitions.PatientRegister"></class>-->
+<!--            <class name="StepsDefinitions.WrongSystemTimeZone"></class>-->
+<!--            <class name="StepsDefinitions.Logout"></class>-->
+
+        </classes>
+    </test>
+<!--    <test name="Parallel Test Chrome">-->
+<!--        <parameter name="BrowserType" value="chrome"></parameter>-->
+
+<!--        <classes>-->
+<!--            <class name="StepsDefinitions.CheckingLoginErrors01"></class>-->
+<!--            <class name="StepsDefinitions.CheckingLoginErrors02"></class>-->
+<!--            <class name="StepsDefinitions.DeletePatient"></class>-->
+<!--            <class name="StepsDefinitions.FindPatientRecord"></class>-->
+<!--            <class name="StepsDefinitions.FindPatientRecordNegativ"></class>-->
+<!--            <class name="StepsDefinitions.ListPatient"></class>-->
+<!--            <class name="StepsDefinitions.MergingPatientRecords"></class>-->
+<!--            <class name="StepsDefinitions.MyAccount"></class>-->
+<!--            <class name="StepsDefinitions.PatientRegister"></class>-->
+<!--            <class name="StepsDefinitions.WrongSystemTimeZone"></class>-->
+<!--            <class name="StepsDefinitions.Logout"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
